@@ -1,0 +1,38 @@
+@font-face {
+  font-family: "CursedTimerUlil-Aznm";
+  src: URL("CursedTimerUlil-Aznm.ttf") format("truetype");
+}
+
+/* ----------------------------------- */
+/* containers */
+/* ----------------------------------- */
+
+.container {
+  max-width: 1000px;
+  width: 95%;
+  margin-inline: auto;
+}
+
+.bb-container {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+}
+
+.score-container {
+  flex: 1;
+  text-align: center;
+}
+
+.increment-container {
+  display: flex;
+  justify-content: center;
+}
+
+/* ----------------------------------- */
+/* Text */
+/* ----------------------------------- */
+
+body {
+  font-family: CursedTimerUlil-Aznm;
+}
